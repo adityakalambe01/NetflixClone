@@ -1,0 +1,11 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'node_modules/swiper/swiper.scss';
+
+body::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
